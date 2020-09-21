@@ -6,7 +6,7 @@ import Social from './Social'
 
 function Startsid(){
     return(
-        <div>
+        <div className="container">
             <Header />
             <Text />
             <Social />

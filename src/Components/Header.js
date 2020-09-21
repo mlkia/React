@@ -1,11 +1,11 @@
 import React from 'react';
 
-function malik(){
+function Header(){
     return(
-        <div className="navbar bg-primary">
-            <h1 className="text-white">React tutorial</h1>
+        <div className="navbar bg-dark rounded">
+            <h1 className="text-white">React tutorial.</h1>
         </div>
     );
 }
 
-export default malik
+export default Header
