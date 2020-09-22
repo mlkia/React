@@ -3,12 +3,15 @@ import React from 'react';
 function Header(){
    
     const client= "Designer";
-    const desi_text="Design"
-    const prog_text="Programming"
+    const titel={
+        Designer: "Design",
+        Programmer: "Programming"
+    }
 
     return(
         <div className="navbar bg-dark rounded">
-            <h1 className="text-white">{client == "Designer" ? desi_text : prog_text} is my life.</h1>
+            <h1 className="text-white">
+            {client == "Designer" ? titel.Designer : titel.Programmer} is my life.</h1>
         </div>
     );
 }
