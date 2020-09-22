@@ -1,18 +1,14 @@
 import React from 'react';
 
 function Header(){
-    let title= "";
-    const client= "ssc";
-
-    if (client === "Designer"){
-        title ="Design is my life."
-    }else{
-        title ="Programming is my life."
-    }
+   
+    const client= "Designer";
+    const desi_text="Design"
+    const prog_text="Programming"
 
     return(
         <div className="navbar bg-dark rounded">
-            <h1 className="text-white">{title}</h1>
+            <h1 className="text-white">{client == "Designer" ? desi_text : prog_text} is my life.</h1>
         </div>
     );
 }
