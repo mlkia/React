@@ -1,24 +1,25 @@
 import React from 'react';
+import SocialItem from './SocialItem'
 
 function Social(){
     return(
         <div>
             <ul className="list-group">
-            
-               <li className="list-group-item">
-                   <input type="checkbox" id="facebook" />
-                   <label for="facebook">Facebook</label>
-                </li>
+              <SocialItem 
+                media ='Facebook' 
+                id ='facebook'
+                img ='https://picsum.photos/80' />
 
-               <li className="list-group-item">
-                   <input type="checkbox" id="youtube" />
-                   <label for="youtube">Youtube</label>
-                </li>
+              <SocialItem 
+                media ='Youtube' 
+                id ='youtube'
+                img ='https://picsum.photos/81' />
 
-               <li className="list-group-item">
-                   <input type="checkbox" id="instagram" />
-                   <label for="instagram">Instagram</label>
-                </li>
+              <SocialItem 
+                media ='Instagram' 
+                id ='instagram'
+                img ='https://picsum.photos/82' />
+
             </ul>
         </div>
     );
