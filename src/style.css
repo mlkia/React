@@ -2,8 +2,35 @@
     margin-top: 20px;
 }
 
+.gallery {
+  border: 1px solid #ccc;
+}
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
 div {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  
 }
 
 label {
